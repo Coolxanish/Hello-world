@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{   string phrase = "hey do u know\nwhat\ncoding is so easy";
+     phrase[32] = 'l';
+     string phrasesub;
+     phrasesub = phrase.substr(32, 4);
+     cout << phrase << endl;
+    cout << phrase.length() << endl;
+    cout << phrase.find("lasy", 0) <<endl;
+    cout << phrasesub << endl;
+    cout << phrase[32] << endl;
+    string phraseof = "thanks to watch my coding";
+    cout << phraseof << endl;
+    int age;
+    age = 17;
+    cout << "my age is " << age << endl;
+    bool ismale = false;
+    cout << ismale << endl;
+
+}
